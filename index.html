@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/search-512.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <div class="logo"><a href=""><img src="assets/logo2.png" alt="logo"><p>.Search</p></a></div>
+        <div class="options">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="mailto:pseudopythonic@gmail.com" target="_blank" title="Contact the developer at: pseudopythonic@gmail.com">Contact - Developer</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="searchbox">
+    <input type="url" id="homepage" name="homepage"placeholder="Search something and press the button">
+    <button onclick="search();"><i class="fa fa-search" aria-hidden="true"></i></button></div>
+    <script>
+        function search(){
+        var value = document.getElementById("homepage").value
+        query = 'https://www.google.com/search?q='+value;
+        window.open(query);
+        };
+        </script>
+</body>
+</html>

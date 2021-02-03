@@ -1,0 +1,105 @@
+body{
+    background: url("assets/GettyImages-1086740226-5c2d625a4cedfd00016ed36c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* zbackground-position: center; */
+}
+
+nav .logo{
+    /* border: 2px solid white; */
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+nav .logo img{
+    width: 70px;
+    height:70px;
+    padding-left: 11px;
+}
+
+nav .logo p{
+    padding-top: 0px;
+    margin-top: 0px;
+    /* padding-left: 10px; */
+    font-size: 1.7rem;
+    font-family:'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+nav .logo a {
+    text-decoration: none;
+}
+
+nav{
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+nav .options ul{
+    display: inline-flex;
+    /* float: right; */
+    list-style: none;
+    /* padding: 10px; */
+}
+
+nav .options ul li a{
+    padding: 10px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav .options ul li a:hover{
+    color: #021036;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav .options{
+    /* border: 2px solid red; */
+    margin-left: 65%;
+}
+
+.searchbox{
+    /* display: flex; */
+    /* border: 2px solid red; */
+    text-align: center;
+    margin-top: 10%;
+}
+
+.searchbox input[type="url"]{
+    width: 40%;
+    height: 50px;
+    border-radius : 6px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 30%);
+    padding-left: 10px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.searchbox input[type="url"]:focus{
+    outline: none;
+}
+
+.searchbox button{
+    border-radius: 6px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    border:2px solid  #021036;
+    color: #021036
+}
+
+.searchbox button:hover{
+    border: none;
+    transition: 0.3s;
+    background-color: #021036;
+    color: white;
+}
+
+.searchbox button:focus{
+    outline: none;
+}
