@@ -201,36 +201,75 @@ p {
       text-decoration: none;
   }
 
-  @media(max-width: 700px){
+  @media screen and (max-width: 768px){
 
+      .SearchArea #homepage{
+        width: 70%;
+        height: 2.9rem;
+        padding-left: 3%;
+        font-size: 1rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 2px solid #EE0202;
+      }
+
+      .SearchArea #Search {
+        padding: 5px 1rem;
+        background: #EE0202;
+        border: none;
+        transition: 0.5s;
+    }
+    .headerText {
+        text-align: center;
+        font-size: 2.3rem;
+        margin-top: 13%;
+        font-family: Roboto Condensed;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .Para2 {
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin-top: -4%;
+    }
+    
     nav img {
-        /* border: 2px black solid; */
-        height: 20%;
-        width: 20%;
-        padding: 20px 50px;
-        margin-left: -4.8%;
-        margin-top: -0.8%;
-        /* display: flex; */
+        display: none;
+    }
+
+    nav ul{
+        padding-left: 2.8%;
+    }
+
+    nav ul li{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    nav ul li button{
+        font-size: 10px;
+        /* margin-bottom: -4%; */
     }
 
     .footer{
         display: flex;
         margin: 0;
         padding: 0;
-        margin-top: 14%;
+        margin-top: 20%;
       }
-    
-    .footer .icons{
-      display: block;
-      padding-top: 2rem;
-      margin: 0;
-    }
+
+      .wrapper{
+          padding-top: 14%;
+      }
     
       .footer  a {
         color: white;
-        padding-top: 2.5rem;
+        padding-top: 1.5rem;
+        margin-left: 4rem;
         padding-left: 1.5rem;
         font-size: 1.8rem;
+        text-align: center;
     }
 
     .footer .mail a{
@@ -240,31 +279,11 @@ p {
       .footer p{
         padding: 0;
         text-align: center;
-        margin-top: 9.9%;
-        padding-left: 11%;
+        margin-top: 5.9%;
+        padding-left: 0%;
         /* margin-left: 3%; */
         font-size: 1.2rem;
       }
 
-      nav ul{
-          padding-left: 0.05%;
-      }
-
-      nav ul li a{
-          font-size: 0.8rem;;
-      }
-
-      nav ul li{
-          font-size: 0.8rem;
-      }
-
-      nav ul li button{
-          font-size: 0.75rem;
-          margin-bottom: -2.9%;
-          /* margin-left: 0.5%; */
-      }
-
-      nav ul li{
-          padding:5px ;
-      }
+      
   }
